@@ -3,4 +3,4 @@
 project for He Phan Tan_Thay Vu
 
 ---
-Open file Calculator and view Source
+Open folder Calculator and view Source
