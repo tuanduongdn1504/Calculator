@@ -187,15 +187,15 @@ export default class Calculator extends React.Component {
               </FunctionKey>
             </View>
             <View style={calculatorStyles.digitKeys}>
-              <DigitKey onPress={() => this.inputDigit(1)}>7</DigitKey>
-              <DigitKey onPress={() => this.inputDigit(2)}>8</DigitKey>
-              <DigitKey onPress={() => this.inputDigit(3)}>9</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(7)}>7</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(8)}>8</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(9)}>9</DigitKey>
               <DigitKey onPress={() => this.inputDigit(4)}>4</DigitKey>
               <DigitKey onPress={() => this.inputDigit(5)}>5</DigitKey>
               <DigitKey onPress={() => this.inputDigit(6)}>6</DigitKey>
-              <DigitKey onPress={() => this.inputDigit(7)}>1</DigitKey>
-              <DigitKey onPress={() => this.inputDigit(8)}>2</DigitKey>
-              <DigitKey onPress={() => this.inputDigit(9)}>3</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(1)}>1</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(2)}>2</DigitKey>
+              <DigitKey onPress={() => this.inputDigit(3)}>3</DigitKey>
               <DigitKey
                 onPress={() => this.inputDigit(0)}
                 style={calculatorStyles.key0}
@@ -277,14 +277,14 @@ const calculatorStyles = StyleSheet.create({
     width: 315
   },
   calculatorKeyText: {
-    // fontSize: 20
+    fontSize: 50
   },
   functionKeys: {
     // backgroundImage: 'linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%)',
     flexDirection: 'row',
     backgroundColor: ' rgba(202,202,204,1)'
   },
-  functionKey: {
+  functionKeyText: {
     fontSize: 50
   },
   digitKeys: {
